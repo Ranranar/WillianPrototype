@@ -24,7 +24,7 @@ public class Projectile : MonoBehaviour
             targetHit = true;
 
         // make sure projectile sticks to surface
-        rb.isKinematic = true;
+        rb.isKinematic = false;
 
         // make sure projectile moves with target
         transform.SetParent(collision.transform);

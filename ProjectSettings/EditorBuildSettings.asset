@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/02_Adding Dialogue.unity
     guid: e58095643e938bc4a92937c6d3d90cbf
+  - enabled: 1
+    path: Assets/Scenes/03_Adding Joyce's Script.unity
+    guid: fe01f6fa88cf47948919dfc98ff8531a
   m_configObjects: {}
