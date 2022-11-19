@@ -5,7 +5,7 @@ public class GameManager : MonoBehaviour
 {
     bool gameHasEnded = false;
 
-    public float restartDelay = 2f;  //To smooth out the transition if player fail and restart. 
+    public float restartDelay = 1f;  //To smooth out the transition if player fail and restart. 
 
     //public GameObject completeLevelUI;  // To build a end game trigger with 2D UI layout. 
 
