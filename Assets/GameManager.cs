@@ -7,14 +7,14 @@ public class GameManager : MonoBehaviour
 
     public float restartDelay = 1f;  //To smooth out the transition if player fail and restart. 
 
-    //public GameObject completeLevelUI;  // To build a end game trigger with 2D UI layout. 
+    public GameObject completeLevelUI;  // To build a end game trigger with 2D UI layout. 
 
 
 
-   // public void CompleteLevel()
-   // {
-   //     completeLevelUI.SetActive(true);
-   // }
+    public void CompleteLevel()
+    {
+        completeLevelUI.SetActive(true);
+    }
 
 
     //Restart the level once game end by collide with obstable or fall off the plane. 
